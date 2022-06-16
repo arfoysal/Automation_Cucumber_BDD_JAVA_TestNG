@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="20549" started-at="2022-05-25T11:28:19 BDT" finished-at="2022-05-25T11:28:39 BDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automationpractice.qa.testrunners.CucumberTestRunner@4fb64261]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automationpractice.qa.testrunners.MyFailedTestRunner@544a2ea6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="20549" started-at="2022-05-25T11:28:19 BDT" finished-at="2022-05-25T11:28:39 BDT">
+      <class name="com.automationpractice.qa.testrunners.MyFailedTestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.automationpractice.qa.testrunners.MyFailedTestRunner@544a2ea6]" name="setUpClass" is-config="true" duration-ms="9" started-at="2022-05-25T11:28:39 BDT" finished-at="2022-05-25T11:28:39 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e4c3a38]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.automationpractice.qa.testrunners.MyFailedTestRunner@544a2ea6]" name="tearDownClass" is-config="true" duration-ms="362" started-at="2022-05-25T11:28:39 BDT" finished-at="2022-05-25T11:28:39 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.automationpractice.qa.testrunners.MyFailedTestRunner -->
+      <class name="com.automationpractice.qa.testrunners.CucumberTestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.automationpractice.qa.testrunners.CucumberTestRunner@4fb64261]" name="setUpClass" is-config="true" duration-ms="583" started-at="2022-05-25T11:28:19 BDT" finished-at="2022-05-25T11:28:19 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e4c3a38]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automationpractice.qa.testrunners.CucumberTestRunner@4fb64261]" name="runScenario" duration-ms="18054" started-at="2022-05-25T11:28:19 BDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-25T11:28:38 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automationpractice.qa.testrunners.CucumberTestRunner@4fb64261]" name="runScenario" duration-ms="12201" started-at="2022-05-25T11:28:19 BDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-25T11:28:32 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automationpractice.qa.testrunners.CucumberTestRunner@4fb64261]" name="runScenario" duration-ms="16346" started-at="2022-05-25T11:28:19 BDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-25T11:28:36 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Accounts section count"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Account Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automationpractice.qa.testrunners.CucumberTestRunner@4fb64261]" name="runScenario" duration-ms="13607" started-at="2022-05-25T11:28:19 BDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-25T11:28:33 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Forgot Password link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automationpractice.qa.testrunners.CucumberTestRunner@4fb64261]" name="runScenario" duration-ms="16939" started-at="2022-05-25T11:28:19 BDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-25T11:28:36 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Accounts page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Account Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.automationpractice.qa.testrunners.CucumberTestRunner@4fb64261]" name="tearDownClass" is-config="true" duration-ms="1514" started-at="2022-05-25T11:28:38 BDT" finished-at="2022-05-25T11:28:39 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.automationpractice.qa.testrunners.CucumberTestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

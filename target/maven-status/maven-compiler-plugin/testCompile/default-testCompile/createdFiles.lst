@@ -1,0 +1,5 @@
+com\automationpractice\qa\step_definitions\AccountPageSteps.class
+com\automationpractice\qa\step_definitions\LoginPageSteps.class
+com\automationpractice\qa\step_definitions\Hooks.class
+com\automationpractice\qa\testrunners\MyFailedTestRunner.class
+com\automationpractice\qa\testrunners\CucumberTestRunner.class

@@ -1,0 +1,12 @@
+com\automationpractice\qa\pages\P007CartPage.class
+com\automationpractice\qa\pages\P004MyAccountPage.class
+com\automationpractice\qa\utilities\ResourceUtils.class
+com\automationpractice\qa\pages\P003CreateAnAccountPage.class
+com\automationpractice\qa\pages\P008CheckoutPage.class
+com\automationpractice\qa\pages\P002SignInPage.class
+com\automationpractice\qa\pages\GoogleHomePage.class
+com\automationpractice\qa\utilities\DriverSetup.class
+com\automationpractice\qa\pages\P005CasualDressesPage.class
+com\automationpractice\qa\pages\P006TShirtsPage.class
+com\automationpractice\qa\pages\BasePage.class
+com\automationpractice\qa\pages\P001HomePage.class
